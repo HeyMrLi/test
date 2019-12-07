@@ -19,23 +19,3 @@ print("Hello World")
 # I figured out I was getting this error because git@github.com was not added to SSH
 # So I had to use ssh -T git@github.com in the terminal 
 # Is this ok?
-
-f = 0
-# print(f)
-
-# f = "abc"
-# print(f)
-
-#print("this is a string " + str(123))
-
-def someFunction():
-    global f
-    f="def"
-    print(f)
-
-someFunction()
-print(f)
-
-del f
-f = 1
-print(f)
