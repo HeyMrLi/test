@@ -9,3 +9,5 @@ if spam_amount > 0:
 
 viking_song = "Spam " * spam_amount
 print (viking_song)
+
+print("Hello World")
